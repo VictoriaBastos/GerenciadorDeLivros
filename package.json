@@ -1,0 +1,22 @@
+{
+  "name": "gerenciadordelivros",
+  "version": "1.0.0",
+  "description": "Sistema de armazenamento e gerenciamento de livros.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictoriaBastos/GerenciadorDeLivros.git"
+  },
+  "author": "Victoria Bastos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictoriaBastos/GerenciadorDeLivros/issues"
+  },
+  "homepage": "https://github.com/VictoriaBastos/GerenciadorDeLivros#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

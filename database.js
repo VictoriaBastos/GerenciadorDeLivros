@@ -2,7 +2,7 @@ const books = [
     {
         title: 'Becoming: Michelle Obama',
         author: 'Michelle Obama',
-        genre:'Biographies',
+        genre:'biographies',
         length: 400,
         BooksWeLove: true,
         Finished: true,
@@ -10,7 +10,7 @@ const books = [
     {
         title: 'Eu sei por que o pássaro canta na gaiola',
         author: 'Maya Angelou',
-        genre:'Biographies',
+        genre:'biographies',
         length: 336,
         BooksWeLove: true,
         Finished: true,
@@ -18,7 +18,7 @@ const books = [
     {
         title: 'Longa Caminhada até a Liberdade',
         author: 'Nelson Mandela',
-        genre:'Biographies',
+        genre:'biographies',
         length: 782,
         BooksWeLove: null,
         Finished: false, 
@@ -26,7 +26,7 @@ const books = [
     {
         title: 'Uma terra prometida',
         author: 'Barack Obama',
-        genre:'Biographies',
+        genre:'biographies',
         length: 764,
         BooksWeLove: null,
         Finished: false,
@@ -34,7 +34,7 @@ const books = [
     {
         title: 'Design Like You Give a Damn',
         author: 'Architecture for Humanity',
-        genre:'Education',
+        genre:'education',
         length: 333,
         BooksWeLove: true,
         Finished: true,
@@ -42,7 +42,7 @@ const books = [
     {
         title: 'JavaScript – O Guia Definitivo',
         author: 'David Flanagan',
-        genre:'Education',
+        genre:'education',
         length: 1080,
         BooksWeLove: true,
         Finished: false,
@@ -50,7 +50,7 @@ const books = [
     {
         title: 'Mindset: A nova psicologia do sucesso',
         author: 'Carol S. Dweck',
-        genre:'Education',
+        genre:'education',
         length: 312,
         BooksWeLove: null ,
         Finished: false ,
@@ -58,7 +58,7 @@ const books = [
     {
         title: '1984',
         author: 'George Orwell',
-        genre:'Fiction',
+        genre:'fiction',
         length: 336,
         BooksWeLove: true,
         Finished: true,
@@ -66,7 +66,7 @@ const books = [
     {
         title: 'A insustentável leveza do ser',
         author: 'Milan Kundera',
-        genre:'Fiction',
+        genre:'fiction',
         length: 344,
         BooksWeLove: true,
         Finished: true,
@@ -74,7 +74,7 @@ const books = [
     {
         title: 'Primeiro eu tive que morrer',
         author: 'Lorena Portela',
-        genre:'Fiction',
+        genre:'fiction',
         length: 140,
         BooksWeLove: null,
         Finished: false,
@@ -82,7 +82,7 @@ const books = [
     {
         title: 'Lying',
         author: 'Sam Harris',
-        genre:'Health & Mind',
+        genre:'mental health',
         length: 105,
         BooksWeLove:true ,
         Finished:true,
@@ -90,7 +90,7 @@ const books = [
     {
         title: 'Mulheres que correm com os lobos',
         author: 'Clarissa Pinkola Estés',
-        genre:'Health & Mind',
+        genre:'mental health',
         length: 576,
         BooksWeLove: true,
         Finished: true,
@@ -98,7 +98,7 @@ const books = [
     {
         title: 'O Demonio Do Meio Dia: Uma anatomia da depressão',
         author: 'Andrew Solomon',
-        genre:'Health & Mind',
+        genre:'mental health',
         length: 584,
         BooksWeLove: true,
         Finished: true,
@@ -106,7 +106,7 @@ const books = [
     {
         title: 'O Inferno Somos Nós',
         author: 'Monja Coen',
-        genre:'Health & Mind',
+        genre:'mental health',
         length: 112,
         BooksWeLove: null,
         Finished: true,
