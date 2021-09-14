@@ -23,7 +23,14 @@ if(searchBook == 'S'){
         const booksWeLove = books.filter((books) => books.booksWeLove === true)
         console.table(booksWeLove)
     }else{
-    console.log('Esses são todos os livros listados:')
-    console.table(books)
+        const searchMyWishList = question('Você gostaria de ver os livros da minha wish list? (S/N)').toLocaleUpperCase()
+        if(searchMyWishList === 'S'){
+            const booksWishList = books.filter((books) => books.finished === false)
+            console.table(booksWishList)
+        }else{
+            console.log('Esses são todos os livros disponíveis:')
+            books.sort(( a, b ) => a.pages - b.pages)
+            console.table(books)
+        }
     }
 }
