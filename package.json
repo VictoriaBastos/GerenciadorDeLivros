@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/VictoriaBastos/GerenciadorDeLivros#readme",
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "utf-8": "^2.0.0"
   }
 }
