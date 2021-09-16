@@ -4,9 +4,11 @@ const inputTerminal = require('readline-sync');
 const question = inputTerminal.question
 
 console.log('´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`');
-console.log('                            Gerenciador de Livros');
+console.log('                            Gerenciador de Livros                           ');
 console.log('´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`');
 
+
+books.sort(( a, b ) => a.pages - b.pages)
 
 let searchBook = question('Voce gostaria de buscar livros por categoria? (S/N)').toLocaleUpperCase()
 if(searchBook === 'S'){
@@ -37,10 +39,9 @@ if(searchMyWishList === 'S'){
 
 if(searchBook != 'S' && searchBooksWeLove != 'S' && searchMyWishList != 'S'){
     console.log('\nEsses sao todos os livros listados:')
-    books.sort(( a, b ) => a.pages - b.pages)
     console.table(books)
 }
 console.log('\n´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`');
-console.log('                              Victoria Bastos'                                 );
+console.log('                              Victoria Bastos                                 ');
 console.log('                                {reprograma}                                  ');
 console.log('´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`´`');
